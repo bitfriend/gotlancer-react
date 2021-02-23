@@ -1,0 +1,33 @@
+.cs-input-toolbox {
+  display: block;
+}
+
+.cs-chat-container .cs-input-toolbox {
+  padding-right: 0;
+}
+
+.cs-input-toolbox .cs-button {
+  padding: 0.2em 0.7em;
+  margin: unset;
+}
+
+.cs-chat-container .cs-message-input {
+  flex: 1;
+  border-top: none;
+}
+
+.cs-chat-container .cs-message-input .cs-message-input__content-editor-wrapper:last-child {
+  margin-right: unset;
+}
+
+.cs-chat-container .cs-message-input .cs-message-input__content-editor-wrapper:first-child {
+  margin-left: unset;
+}
+
+.cs-message__custom-content .msg-more-action {
+  visibility: hidden;
+}
+
+.cs-message__custom-content:hover .msg-more-action {
+  visibility: visible;
+}
